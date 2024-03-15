@@ -6,8 +6,9 @@ public class PlayerController : MonoBehaviour
 {
     public float movimentox;
     public float movimentoy;
-    public float movSpeed;
+    public float moveUnitsperSecond = 1f;
     Rigidbody2D rb;
+    private Vector2 movement;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,8 +18,12 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movimentox = Input.GetAxis("Horizontal") * movSpeed;
-        movimentoy = Input.GetAxis("Vertical") * movSpeed;
-        rb.velocity = new Vector2(movimentox, movimentoy);
+        movimentox = Input.GetAxisRaw("Horizontal");
+        movimentoy = Input.GetAxisRaw("Vertical");
+        
+    }
+    private void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + movement * moveUnitsperSecond * Time.fixedDeltaTime);
     }
 }
