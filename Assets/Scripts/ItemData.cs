@@ -10,5 +10,5 @@ public class ItemsData : ScriptableObject
     [TextArea]
     public string description;
 
-
+    // O CreateAssetMenu permite no Unity criar Item Data objects na pasta dos assets.
 }

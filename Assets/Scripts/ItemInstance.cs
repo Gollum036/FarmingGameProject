@@ -5,7 +5,13 @@ using UnityEngine;
 [System.Serializable]
 public class ItemInstance
 {
-    public ItemData itemType;
+    public ItemsData itemType;
     public int condition;
+
+    public ItemInstance(ItemsData itemData)
+    {
+        itemType = itemData;
+        
+    }
 }
 
