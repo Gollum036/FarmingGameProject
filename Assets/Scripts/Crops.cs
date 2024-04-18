@@ -38,5 +38,10 @@ public class Crop : MonoBehaviour
     {
         // Handle harvesting the crop (e.g., give resources to the player)
         // You can also destroy the crop object here
+        // Handle harvesting the crop (e.g., give resources to the player)
+        // For example, you might add currency or items to the player's inventory
+        // You can also destroy the crop object here
+        Debug.Log("Crop harvested!");
+        Destroy(gameObject);
     }
 }
