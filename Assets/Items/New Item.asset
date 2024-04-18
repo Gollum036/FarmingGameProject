@@ -16,3 +16,4 @@ MonoBehaviour:
   name: Apple
   description: It's an apple!
   icon: {fileID: 0}
+  timeToGrow: 10

@@ -16,3 +16,4 @@ MonoBehaviour:
   name: Onion
   description: I-It's an O-Onion...
   icon: {fileID: 0}
+  timeToGrow: 10

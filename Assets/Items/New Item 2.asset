@@ -16,3 +16,4 @@ MonoBehaviour:
   name: Cenoura
   description: Colheita de cenoura
   icon: {fileID: 0}
+  timeToGrow: 10
