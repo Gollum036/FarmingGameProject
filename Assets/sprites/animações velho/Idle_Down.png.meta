@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a97eece19db7df844a0201fca4182688
+guid: e5fa1333f5d53904c9021f69e2de3c34
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -149,7 +149,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walking_Down 2_0
+      name: Idle_Down_0
       rect:
         serializedVersion: 2
         x: 0
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4351a04250145484a9b0ea483a55124d
-      internalID: 214919912
+      spriteID: aa6869467dc5c9f49a19dbe49a982a72
+      internalID: 2147468369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking_Down 2_1
+      name: Idle_Down_1
       rect:
         serializedVersion: 2
         x: 64
@@ -184,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d1237236d2bce341849947912f89df3
-      internalID: 17157832
+      spriteID: 65819c7eec28c1e4f9370331e21c6263
+      internalID: -1766265043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking_Down 2_2
+      name: Idle_Down_2
       rect:
         serializedVersion: 2
         x: 128
@@ -205,29 +205,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d003539c0c685324faec06740eb67a33
-      internalID: 653100882
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Walking_Down 2_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1854a78d54cc0aa43bb706ac2ab55c8e
-      internalID: -503045251
+      spriteID: 6bbfe1cd791f1334f9325b07841d48de
+      internalID: -1338454454
       vertices: []
       indices: 
       edges: []
@@ -243,10 +222,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Walking_Down 2_0: 214919912
-      Walking_Down 2_1: 17157832
-      Walking_Down 2_2: 653100882
-      Walking_Down 2_3: -503045251
+      Idle_Down_0: 2147468369
+      Idle_Down_1: -1766265043
+      Idle_Down_2: -1338454454
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
