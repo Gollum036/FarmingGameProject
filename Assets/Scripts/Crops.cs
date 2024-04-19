@@ -6,7 +6,7 @@ public class Crop : MonoBehaviour
     public Sprite[] growthSprites; // Sprites representing different growth stages
     public float timeToGrow = 10f; // Time in seconds for the crop to reach maturity
     private int currentStage = 0; // Current growth stage
-
+    private bool isFullyGrown = false;
     private void Start()
     {
         // Start growing the crop when it's planted
@@ -31,17 +31,22 @@ public class Crop : MonoBehaviour
         }
 
         // Crop is fully grown
-        Harvest();
+        isFullyGrown = true;
     }
 
-    private void Harvest()
+    public void Harvest()
     {
-        // Handle harvesting the crop (e.g., give resources to the player)
-        // You can also destroy the crop object here
-        // Handle harvesting the crop (e.g., give resources to the player)
-        // For example, you might add currency or items to the player's inventory
-        // You can also destroy the crop object here
-        Debug.Log("Crop harvested!");
-        Destroy(gameObject);
+        if (isFullyGrown)
+        {
+            // Handle harvesting the crop (e.g., give resources to the player)
+            
+            Debug.Log("Crop harvested!");
+            Destroy(gameObject);
+        }
+        else
+        {
+            // The crop is not fully grown yet
+            Debug.Log("Crop is not fully grown yet!");
+        }
     }
 }
