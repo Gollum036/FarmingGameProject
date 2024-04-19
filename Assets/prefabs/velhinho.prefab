@@ -97,12 +97,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 5431126495058611359}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30ec4ddb769623543ba5d949e0685940, type: 3}
+  m_Script: {fileID: 11500000, guid: 1487630ffaa12d44399d0c9f14beca4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movimentox: 0
-  movimentoy: 0
-  moveUnitsperSecond: 5
+  speed: 3
+  maxHealth: 5
+  timeInvincible: 2
 --- !u!50 &1110891734859437458
 Rigidbody2D:
   serializedVersion: 4
@@ -129,7 +129,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &7214986592445747078
 BoxCollider2D:
   m_ObjectHideFlags: 0
