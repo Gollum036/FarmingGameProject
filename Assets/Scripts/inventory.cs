@@ -9,6 +9,7 @@ public class Inventory : MonoBehaviour
     public GameObject inventoryUI;
     public Text itemNameText;
     public Text itemDescriptionText;
+    public GameObject inventoryPanel;
 
     public Item selectedItem;
 
@@ -26,7 +27,7 @@ public class Inventory : MonoBehaviour
             ToggleInventory();
         }
     }
-
+   
     public void AddItem(ItemData itemData)
     {
         Item newItem = new Item(itemData);
