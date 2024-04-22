@@ -4,11 +4,26 @@ using UnityEngine;
 
 public class PegarCenoura : MonoBehaviour
 {
+    private bool hasInteracted = false;
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Slots slotsScript = FindObjectOfType<Slots>();
-        Destroy(gameObject);
-        slotsScript.IncreaseQuantity();
+        if (!hasInteracted)
+        {
+            // Encontra o objeto com o script Slots
+            Slots slotsScript = FindObjectOfType<Slots>();
+
+            if (slotsScript != null)
+            {
+                // Adiciona uma cenoura ao inventário
+                slotsScript.IncreaseQuantity();
+                hasInteracted = true;
+                Destroy(gameObject);
+            }
+            else
+            {
+                Debug.LogError("O objeto com o script Slots não foi encontrado.");
+            }
+        }
     }
 }
