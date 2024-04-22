@@ -949,8 +949,6 @@ MonoBehaviour:
   items: []
   itemsParent: {fileID: 0}
   inventoryUI: {fileID: 691667260}
-  itemNameText: {fileID: 0}
-  itemDescriptionText: {fileID: 0}
   inventoryPanel: {fileID: 0}
   selectedItem:
     itemData: {fileID: 0}
@@ -3181,8 +3179,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 182150453}
-        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
-        m_MethodName: CancelInvoke
+        m_TargetAssemblyTypeName: Inventory, Assembly-CSharp
+        m_MethodName: ToggleInventory
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4189,8 +4187,6 @@ MonoBehaviour:
   items: []
   itemsParent: {fileID: 0}
   inventoryUI: {fileID: 0}
-  itemNameText: {fileID: 0}
-  itemDescriptionText: {fileID: 0}
   inventoryPanel: {fileID: 0}
   selectedItem:
     itemData: {fileID: 0}
@@ -86102,8 +86098,6 @@ MonoBehaviour:
   items: []
   itemsParent: {fileID: 444984059}
   inventoryUI: {fileID: 1940409597}
-  itemNameText: {fileID: 0}
-  itemDescriptionText: {fileID: 0}
   inventoryPanel: {fileID: 0}
   selectedItem:
     itemData: {fileID: 11400000, guid: 5ec64745cb6a7b6448a09e2df109e043, type: 2}

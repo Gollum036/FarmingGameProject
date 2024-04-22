@@ -41,7 +41,7 @@ public class Crop : MonoBehaviour
         }
     }
     
-    public Inventory inventory;
+    
     
     
     
