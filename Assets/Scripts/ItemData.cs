@@ -8,5 +8,5 @@ public class ItemData : ScriptableObject
     public string description;
     public Sprite icon;
     public float timeToGrow;
-    // Add any other properties you need for your items here
+    // Add any other properties needed for the items here
 }
