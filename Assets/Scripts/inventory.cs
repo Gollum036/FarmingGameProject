@@ -1,14 +1,16 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using TMPro;
 
 public class Inventory : MonoBehaviour
 {
+    
     public List<Item> items = new List<Item>();
     public Transform itemsParent;
     public GameObject inventoryUI;
-    //public Text itemNameText;
-    //public Text itemDescriptionText;
+    public Text itemNameText;
+    public Text itemDescriptionText;
     public GameObject inventoryPanel;
 
     public Item selectedItem;
@@ -27,7 +29,7 @@ public class Inventory : MonoBehaviour
             ToggleInventory();
         }
     }
-   
+    
     public void AddItem(ItemData itemData)
     {
         Item newItem = new Item(itemData);
@@ -45,8 +47,8 @@ public class Inventory : MonoBehaviour
     public void SelectItem(Item item)
     {
         selectedItem = item;
-        //itemNameText.text = selectedItem.itemData.name;
-        //itemDescriptionText.text = selectedItem.itemData.description;
+        itemNameText.text = selectedItem.itemData.name;
+        itemDescriptionText.text = selectedItem.itemData.description;
     }
 
     void UpdateUI()
@@ -86,6 +88,7 @@ public class Item
 public class InventorySlot : MonoBehaviour
 {
     public Image icon;
+    
     Item item;
 
     public void AddItem(Item newItem)
