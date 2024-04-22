@@ -65,19 +65,5 @@ public class VelhinhoMovement : MonoBehaviour
         rigidbody2d.MovePosition(position);
     }
 
-    public void ChangeHealth(int amount)
-    {
-        if (amount < 0)
-        {
-            animator.SetTrigger("Hit");
-            if (isInvincible)
-                return;
-
-            isInvincible = true;
-            invincibleTimer = timeInvincible;
-        }
-
-        currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
-        Debug.Log(currentHealth + "/" + maxHealth);
-    }
+    
 }

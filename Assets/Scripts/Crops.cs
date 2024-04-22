@@ -33,12 +33,18 @@ public class Crop : MonoBehaviour
         // Crop is fully grown
         isFullyGrown = true;
     }
-
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Harvest();
+        }
+    }
     public void Harvest()
     {
         if (isFullyGrown)
         {
-            // Handle harvesting the crop (e.g., give resources to the player)
+            // Gives items and destroys gameObject
             
             Debug.Log("Crop harvested!");
             Destroy(gameObject);
