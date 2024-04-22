@@ -8,7 +8,7 @@ public class Slots : MonoBehaviour
 {
     public Image itemIcon;
     public TextMeshProUGUI quantityText;
-    private int quantity = 1;
+    private int quantity = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +27,7 @@ public class Slots : MonoBehaviour
     // Function to update the quantity text
     private void UpdateQuantityText()
     {
-        quantityText.text = "Quantity: " + quantity.ToString();
+        quantityText.text = "" + quantity.ToString();
     }
     
 }
