@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Crop : MonoBehaviour
 {
+    public GameObject Slots;
     public Sprite[] growthSprites; // Sprites representing different growth stages
     public float timeToGrow = 10f; // Time in seconds for the crop to reach maturity
     private int currentStage = 0; // Current growth stage
@@ -51,7 +52,7 @@ public class Crop : MonoBehaviour
         {
             // Gives items and destroys gameObject
 
-            
+            Slots.GetComponent<Slots>().IncreaseQuantity();
             Debug.Log("Crop harvested!");
             Destroy(gameObject);
         }

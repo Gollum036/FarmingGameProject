@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 3
   name: Cenoura
-  description: Colheita de cenoura
-  icon: {fileID: 0}
+  description: Carrot!
+  icon: {fileID: 21300000, guid: b4d61fb79ded92b4581e146784872cf0, type: 3}
   timeToGrow: 10
