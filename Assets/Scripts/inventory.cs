@@ -5,7 +5,7 @@ using TMPro;
 
 public class Inventory : MonoBehaviour
 {
-    
+    public GameObject Slots;
     public List<Item> items = new List<Item>();
     public Transform itemsParent;
     public GameObject inventoryUI;
