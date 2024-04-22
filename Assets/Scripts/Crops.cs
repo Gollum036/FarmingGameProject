@@ -40,11 +40,17 @@ public class Crop : MonoBehaviour
             Harvest();
         }
     }
+    
+    public Inventory inventory;
+    
+    
+    
     public void Harvest()
     {
         if (isFullyGrown)
         {
             // Gives items and destroys gameObject
+
             
             Debug.Log("Crop harvested!");
             Destroy(gameObject);
