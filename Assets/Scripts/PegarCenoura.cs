@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class PegarCenoura : MonoBehaviour
 {
-    public GameObject Slots;
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        Slots.GetComponent<Slots>().IncreaseQuantity();
+        Slots slotsScript = FindObjectOfType<Slots>();
         Destroy(gameObject);
+        slotsScript.IncreaseQuantity();
     }
 }
