@@ -143,5 +143,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 583ac72795fa11c428728030b7307134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cenouraPrefab: {fileID: 0}
+  cenouraPrefab: {fileID: 1095141346262003612, guid: d3b68afe10fdd4f44ade7c412cbeadf5, type: 3}
   spawnRadius: 1
