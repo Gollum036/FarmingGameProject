@@ -7,8 +7,8 @@ public class Inventory : MonoBehaviour
     public List<Item> items = new List<Item>();
     public Transform itemsParent;
     public GameObject inventoryUI;
-    public Text itemNameText;
-    public Text itemDescriptionText;
+    //public Text itemNameText;
+    //public Text itemDescriptionText;
     public GameObject inventoryPanel;
 
     public Item selectedItem;
@@ -45,8 +45,8 @@ public class Inventory : MonoBehaviour
     public void SelectItem(Item item)
     {
         selectedItem = item;
-        itemNameText.text = selectedItem.itemData.name;
-        itemDescriptionText.text = selectedItem.itemData.description;
+        //itemNameText.text = selectedItem.itemData.name;
+        //itemDescriptionText.text = selectedItem.itemData.description;
     }
 
     void UpdateUI()
@@ -64,8 +64,9 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    void ToggleInventory()
+    public void ToggleInventory()
     {
+        
         inventoryUI.SetActive(!inventoryUI.activeSelf);
     }
 }
