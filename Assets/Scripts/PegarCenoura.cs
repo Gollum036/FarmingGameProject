@@ -16,7 +16,7 @@ public class PegarCenoura : MonoBehaviour
             if (slotsScript != null)
             {
                 // Adiciona uma cenoura ao inventário
-                //slotsScript.IncreaseQuantity();
+                slotsScript.IncreaseQuantity();
                 hasInteracted = true;
                 Destroy(gameObject);
             }

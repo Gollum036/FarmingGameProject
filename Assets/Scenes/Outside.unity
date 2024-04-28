@@ -778,7 +778,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 106219c15bfb58b49afe388c31483529, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryPanel: {fileID: 691667260}
+  Slots: {fileID: 1095141346262003612, guid: d3b68afe10fdd4f44ade7c412cbeadf5, type: 3}
+  items: []
+  itemsParent: {fileID: 0}
+  inventoryUI: {fileID: 691667260}
+  itemNameText: {fileID: 0}
+  itemDescriptionText: {fileID: 0}
+  inventoryPanel: {fileID: 0}
+  selectedItem:
+    itemData: {fileID: 0}
+  slots: []
 --- !u!1001 &184919813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1582,7 +1591,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 106219c15bfb58b49afe388c31483529, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Slots: {fileID: 1095141346262003612, guid: d3b68afe10fdd4f44ade7c412cbeadf5, type: 3}
+  items: []
+  itemsParent: {fileID: 0}
+  inventoryUI: {fileID: 0}
+  itemNameText: {fileID: 0}
+  itemDescriptionText: {fileID: 0}
   inventoryPanel: {fileID: 0}
+  selectedItem:
+    itemData: {fileID: 0}
+  slots: []
 --- !u!1 &447702398
 GameObject:
   m_ObjectHideFlags: 0
@@ -4088,7 +4106,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 106219c15bfb58b49afe388c31483529, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Slots: {fileID: 0}
+  items: []
+  itemsParent: {fileID: 0}
+  inventoryUI: {fileID: 0}
+  itemNameText: {fileID: 0}
+  itemDescriptionText: {fileID: 0}
   inventoryPanel: {fileID: 0}
+  selectedItem:
+    itemData: {fileID: 0}
+  slots:
+  - {fileID: 0}
 --- !u!1 &1363887116
 GameObject:
   m_ObjectHideFlags: 0

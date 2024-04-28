@@ -2,12 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class VelhinhoMovement : MonoBehaviour
 {
-    //Items bellow:
-    public int numCarrotSeed = 0;
-
-    //Movement bellow:
     public float speed = 3.0f;
 
     public int maxHealth = 5;
