@@ -7,7 +7,7 @@ public class Inventory : MonoBehaviour
 {
     public GameObject Slots;
     public List<Item> items = new List<Item>();
-    public Transform itemsParent;
+    
     public GameObject inventoryUI;
     public Text itemNameText;
     public Text itemDescriptionText;
@@ -17,10 +17,7 @@ public class Inventory : MonoBehaviour
 
     public InventorySlot[] slots;
 
-    void Start()
-    {
-        slots = itemsParent.GetComponentsInChildren<InventorySlot>();
-    }
+    
 
     void Update()
     {
