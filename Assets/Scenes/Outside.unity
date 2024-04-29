@@ -94269,27 +94269,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.2567167, y: 2.8472242}
   m_EdgeRadius: 0
---- !u!114 &1808180165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1808180161}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea996d2d2fc46c648b65fa656459064f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 0}
-  dialogueText: {fileID: 0}
-  dialogue:
-  - Welcome! How about leave all your worries behind and just take it easy!
-  - Just collect some carrots and forget about everything else!
-  contButton: {fileID: 0}
-  wordSpeed: 0
-  playerIsClose: 0
-  inventario: {fileID: 0}
 --- !u!1001 &1865992823
 PrefabInstance:
   m_ObjectHideFlags: 0
